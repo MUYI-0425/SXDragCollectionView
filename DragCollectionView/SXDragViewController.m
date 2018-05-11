@@ -189,8 +189,8 @@
 
 - (CGFloat)waterflowLayout:(SXDragCollectionLayout *)waterflowLayout collectionView:(UICollectionView *)collectionView heightForItemAtIndexPath:(NSIndexPath *)indexPath itemWidth:(CGFloat)itemWidth {
     NSLog(@"%ld",[self.heightDB[indexPath.row] integerValue]);
-//    return [self.heightDB[indexPath.row] integerValue]; //瀑布流
-    return 100;
+    return [self.heightDB[indexPath.row] integerValue]; //瀑布流
+//    return 100;
 }
 
 
